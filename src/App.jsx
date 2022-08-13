@@ -33,7 +33,7 @@ function App() {
 	return (
 		<div className="App">
 			<h1>Rick and Morty</h1>
-			<form onSumit={handleSumit}>
+			<form onSubmit={handleSumit}>
 				<input id="search" type="text" />
 				<button>Search</button>
 			</form>
