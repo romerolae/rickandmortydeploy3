@@ -18,7 +18,7 @@ body {
 	max-width: 100%;
 }
 .banner > img {
-	width: 600px;
+	width: 800px;
 	height: 200px;
 	object-fit: fill;
 }
@@ -42,6 +42,8 @@ body {
 	border-radius: 5px;
 	border: none;
 	width: 10rem;
+	cursor: pointer;
+	background-color: aquamarine;
 }
 
 .app__form__input button {
@@ -51,6 +53,12 @@ body {
 	color: #ffff;
 	width: 60px;
 	height: 30px;
+	cursor: pointer;
+	box-shadow: 0 0 10px #000;
+}
+
+.app__form__input button:hover {
+	color: #000;
 }
 
 /* ===========Location info ============== */
@@ -91,7 +99,6 @@ body {
 	flex-wrap: wrap;
 }
 .card__main {
-	border: solid 1px black;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -99,6 +106,7 @@ body {
 	border-radius: 15px;
 	color: #ffff;
 	overflow: hidden;
+	box-shadow: 5px 5px 15px #000;
 }
 
 .card__header {
