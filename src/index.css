@@ -7,9 +7,6 @@ body {
 		Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.App {
-}
-
 .wrapper {
 	padding: 1rem 1.5rem;
 }
@@ -20,11 +17,10 @@ body {
 	justify-content: center;
 	max-width: 100%;
 }
-
 .banner > img {
-	width: 800px;
+	width: 600px;
 	height: 200px;
-	overflow-y: auto;
+	object-fit: fill;
 }
 
 /* ===========Search card ============== */

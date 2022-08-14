@@ -4,7 +4,7 @@ const Header = () => {
 	return (
 		<div>
 			<div className="banner">
-				<img src="../src/assets/images/banner.png" alt="" />
+				<img src="https://wallpapercave.com/wp/wp1822728.jpg" alt="" />
 			</div>
 		</div>
 	);
