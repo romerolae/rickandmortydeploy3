@@ -12,8 +12,10 @@ function App() {
 
 	return (
 		<div className="App">
-			<Header />
-			<SearchCard setLocation={setLocation} />
+			<div className="one">
+				<Header />
+				<SearchCard setLocation={setLocation} />
+			</div>
 			<LocationInfo location={location} />
 			<div className="card__container">
 				{location?.residents.map((url) => (

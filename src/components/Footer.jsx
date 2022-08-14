@@ -4,8 +4,8 @@ const Footer = () => {
 	return (
 		<div>
 			<footer class="footer">
-				<div class="contenedor__footer">
-					<div class="contenedro__footer-item">
+				<div class="container__footer">
+					<div class="container__footer-item">
 						<h3>Support:</h3>
 						<ul>
 							<li>
@@ -16,7 +16,7 @@ const Footer = () => {
 							</li>
 						</ul>
 					</div>
-					<div class="contenedro__footer-item social">
+					<div class="container__footer-item social">
 						<h3>Social:</h3>
 						<ul>
 							<li>
@@ -37,7 +37,7 @@ const Footer = () => {
 						</ul>
 					</div>
 				</div>
-				<div class="contenedor__footer-copy">
+				<div class="container__footer-copy">
 					<p>All rights reserved 2022</p>
 				</div>
 			</footer>

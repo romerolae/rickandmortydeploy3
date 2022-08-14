@@ -27,7 +27,7 @@ const SearchCard = ({ setLocation }) => {
 	};
 
 	return (
-		<div>
+		<div className="search__container">
 			<div className="app__form ">
 				<h2>Rick and Morty</h2>
 				<form className="app__form__input" onSubmit={handleSumit}>
