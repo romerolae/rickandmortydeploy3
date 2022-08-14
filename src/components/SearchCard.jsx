@@ -29,6 +29,7 @@ const SearchCard = ({ setLocation }) => {
 	return (
 		<div>
 			<div className="app__form wrapper">
+				<h2>Rick and Morty</h2>
 				<form className="app__form__input" onSubmit={handleSumit}>
 					<input
 						id="search"

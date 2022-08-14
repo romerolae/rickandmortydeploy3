@@ -4,11 +4,11 @@ const LocationInfo = ({ location }) => {
 	console.log(location);
 	return (
 		<div>
-			<h1 className="wrapper">Residents</h1>
+			<h2 className="location__sub">Residents</h2>
 			<article className="location wrapper">
 				<h2>{location?.name}</h2>
-				<div className="location__item">
-					<ul>
+				<div>
+					<ul className="location__item">
 						<li>
 							<span>Type </span> {location?.type}
 						</li>
