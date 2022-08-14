@@ -10,13 +10,13 @@ const LocationInfo = ({ location }) => {
 				<div>
 					<ul className="location__item">
 						<li>
-							<span>Type </span> {location?.type}
+							<span>Type: </span> {location?.type}
 						</li>
 						<li>
-							<span>Dimension </span> {location?.dimension}
+							<span>Dimension: </span> {location?.dimension}
 						</li>
 						<li>
-							<span>Population </span> {location?.residents.length}
+							<span>Population: </span> {location?.residents.length}
 						</li>
 					</ul>
 				</div>

@@ -15,7 +15,7 @@ function App() {
 			<Header />
 			<SearchCard setLocation={setLocation} />
 			<LocationInfo location={location} />
-			<div>
+			<div className="card__container">
 				{location?.residents.map((url) => (
 					<CardResidents key={url} url={url} />
 				))}
